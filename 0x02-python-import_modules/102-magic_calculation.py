@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from magic_calculation_102 import add, sub
-"""Match bytecode provided by Holberton School."""
+
     def magic_calculation(a, b):
 
     if (a < b):
