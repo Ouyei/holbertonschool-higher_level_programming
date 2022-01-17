@@ -10,11 +10,11 @@ def safe_print_list(my_list=[], x=0):
         The number of elements printed.
     """
     items = 0
-    for element in range(x):
-        try:
-            print("{}".format(my_list[element   ]), end="")
-            ret += 1
-        except IndexError:
-            break
-    print("")
-    return (items)
+    try:
+        for elements in range(0, x):
+            print("{}".format(my_list[elements]), end="")
+            items += 1
+    except IndexError:
+        pass
+    print()
+    return items
