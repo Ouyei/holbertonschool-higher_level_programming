@@ -6,9 +6,10 @@
 
 class Square:
     """class variable size"""
-    def __init__(self, size=0):
-        """initialize size"""
+    def __init__(self, size=0, position=(0, 0)):
+        """initialize new square"""
         self.__size = size
+        self.position = position
 
     @property
     def size(self):
@@ -32,7 +33,8 @@ class Square:
     @position.setter
     def position(self, value):
         """Sets position"""
-        if type(value) is not tuple or len(value) >1:
+
+        if type(value) is not tuple or len(value) > 1:
             raise TypeError("position must be a tumple of two positive int")
         self.__position = value
 
