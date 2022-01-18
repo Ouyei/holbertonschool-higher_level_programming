@@ -24,15 +24,24 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
+    @property
+    def position(self):
+        """Get/set the current position of the square."""
+        return (self.__position)
+
+    @position.setter
+    def position(self, value):
+        """Sets position"""
+        if type(value) is not tuple or len(value) >1:
+            raise TypeError("position must be a tumple of two positive int")
+        self.__position = value
+
     def area(self):
         """Return the current area of the square."""
         return (self.__size * self.__size)
 
     def my_print(self):
         """Print square with the # char"""
-        for i in range(0, self.__size):
-            [print("#", end="") for j in range(self.__size)]
-            print("")
         if self.__size == 0:
             print("")
             return
