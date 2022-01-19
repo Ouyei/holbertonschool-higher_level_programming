@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # 6-square.py
 # Oscar Bedat <3961@holbertonschool.com>
-"""Define a class square: """
+"""Define a class square."""
 
 
 class Square(object):
