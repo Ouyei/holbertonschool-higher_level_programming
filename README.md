@@ -28,6 +28,7 @@ Here is the complete list of projects in this repository, each project has its d
 * [0x03. Python - Data Structures: Lists, Tuples](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x03-python-data_structures)
 * [0x04. Python - More Data Structures: Set, Dictionary](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x04-python-more_data_structures)
 * [0x05. Python - Exceptions](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x05-python-exceptions)
+* [0x06. Python - Classes and Objects](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x06-python-classes)
 
 ## Usage
 Each project and task contains the instructions to compile the code and execute the results.
