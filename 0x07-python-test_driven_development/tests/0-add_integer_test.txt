@@ -1,0 +1,8 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Sumando dos:
+>>> add_integer(2, 3)
+5
+
+Si un parametro no es ni int ni float:
+>>> add_integer("adc", 10)
