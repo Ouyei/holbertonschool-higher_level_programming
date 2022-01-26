@@ -8,6 +8,7 @@ these numbers can be integers or floats.
 
 """
 
+
 def add_integer(a, b=98):
     """Returns the integer addition of a and b
     """
