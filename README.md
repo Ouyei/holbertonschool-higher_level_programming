@@ -33,6 +33,7 @@ Here is the complete list of projects in this repository, each project has its d
 * [0x08. Python - More Classes and Objects](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x08-python-more_classes)
 * [0x09. Python - Everything is object](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x09-python-everything_is_object)
 * [0x0A. Python - Inheritance](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x0A-python-inheritance)
+* [0x0B. Python - Input/Output](https://github.com/Ouyei/holbertonschool-higher_level_programming/tree/main/0x0B-python-input_output)
 
 ## Usage
 Each project and task contains the instructions to compile the code and execute the results.
