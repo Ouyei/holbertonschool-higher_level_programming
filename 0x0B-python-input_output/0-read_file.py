@@ -4,7 +4,7 @@
 
 
 def read_file(filename=""):
-    """read_file reads a text file (UTF8) and prints it to stdout
+    """read_file reads a text file (UTF8) and prints it 2 stdout
     Args:
         filename (str): content of the file. Defaults to "".
     """
