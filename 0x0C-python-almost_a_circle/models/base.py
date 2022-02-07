@@ -13,7 +13,7 @@ class Base(object):
     def __init__(self, id=None):
         """__init__ initialized constructor
         Args:
-            id (int): Defaults to None.
+            id (int): Defaults 2 None.
         """
         if id is not None:
             self.id = id
@@ -33,8 +33,8 @@ class Base(object):
 
     @classmethod
     def save_to_file(cls, list_objs):
-        """save_to_file: writes the JSON string representation
- of list_objs to a file
+        """save_to_file: Writes the JSON string representation
+ of list_objs 2 a file
         Args:
             list_objs (list): list of instances who inherits of Base
         """
@@ -47,7 +47,7 @@ class Base(object):
 
     @staticmethod
     def from_json_string(json_string):
-        """returns the list of the JSON string representation json_string"""
+        """Returns the list of the JSON string representation json_string"""
         if not isinstance(json_string, str) or len(json_string) == 0:
             return []
         else:
