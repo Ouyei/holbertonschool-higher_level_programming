@@ -48,12 +48,3 @@ class Test_Base(unittest.TestCase):
         self.assertEqual(base_instance.id, 'Monty Python')
         base_instance = Base('Python is cool')
         self.assertEqual(base_instance.id, 'Python is cool')
-
-    def test_to_json_string(self):
-        """
-        Test the to_json_string method
-        """
-        rect_instance = Rectangle(10, 7, 2, 8, 70)
-        rect_data = re1.to_dictionary()
-        json_data = Base.to_json_string([rect_data])
-        self.assertEqual(type(json_data), str)
