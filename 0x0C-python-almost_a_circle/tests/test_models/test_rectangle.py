@@ -3,9 +3,7 @@
 # Oscar Bedat <3961@holbertonschool.com>
 """Defines unittests for rectangle.py."""
 import unittest
-import io
-import sys
-from io import StringIO
+import pep8
 from models.base import Base
 from models.rectangle import Rectangle
 

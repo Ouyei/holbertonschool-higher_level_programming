@@ -4,15 +4,13 @@
 """Defines unittests for base.py."""
 import unittest
 import os
-import json
-import sys
-from io import StringIO
+import pep8
 from models.base import Base
 from models.rectangle import Rectangle
 from models.square import Square
 
 
-class TestBase(unittest.TestCase):
+class Test_Base(unittest.TestCase):
     """
     A class to test the Base Class
     """
@@ -112,7 +110,7 @@ class TestBase(unittest.TestCase):
         self.assertEqual(json_data, "[]")
 
         warn = ("to_json_string() missing 1 required positional argument: " +
-                "'list_dictionaries'")
+                "'list_dict'")
 
         with self.assertRaises(TypeError) as msg:
             Base.to_json_string()

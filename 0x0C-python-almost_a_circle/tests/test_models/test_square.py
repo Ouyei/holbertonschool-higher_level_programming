@@ -3,10 +3,7 @@
 # Oscar Bedat <3961@holbertonschool.com>
 """Defines unittests for square.py."""
 import unittest
-import os
-import json
-import sys
-from io import StringIO
+import pep8
 from models.base import Base
 from models.rectangle import Rectangle
 from models.square import Square
