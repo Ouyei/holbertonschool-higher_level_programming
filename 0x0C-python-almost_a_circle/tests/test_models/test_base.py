@@ -43,11 +43,8 @@ class Test_Base(unittest.TestCase):
         base_instance = Base(-4)
         self.assertEqual(base_instance.id, -4)
 
-    def test_id_as_none(self):
-        """
-        Test for a None Base Class id
-        """
-        base_instance = Base()
-        self.assertEqual(base_instance.id, 1)
-        base_instance = Base(None)
-        self.assertEqual(base_instance.id, 2)
+    def test_string_id(self):
+        base_instance = Base('Monty Python')
+        self.assertEqual(base_instance.id, 'Monty Python')
+        base_instance = Base('Python is cool')
+        self.assertEqual(base_instance.id, 'Python is cool')
