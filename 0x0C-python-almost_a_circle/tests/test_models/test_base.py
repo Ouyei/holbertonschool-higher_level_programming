@@ -24,3 +24,12 @@ class Test_Base(unittest.TestCase):
             check.total_errors, 0,
             "Found code style errors (and warnings)."
         )
+
+    def test_id_as_positive(self):
+        """
+        Test for a positive Base Class id
+        """
+        base_instance = Base(115)
+        self.assertEqual(base_instance.id, 115)
+        base_instance = Base(67)
+        self.assertEqual(base_instance.id, 67)
