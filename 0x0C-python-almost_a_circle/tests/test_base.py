@@ -10,7 +10,7 @@ from models.rectangle import Rectangle
 from models.square import Square
 
 
-class TestBase(unittest.TestCase):
+class Test_Base(unittest.TestCase):
     """
     A class to test the Base Class
     """
