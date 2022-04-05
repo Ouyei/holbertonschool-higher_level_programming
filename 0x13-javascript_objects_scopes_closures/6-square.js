@@ -2,7 +2,7 @@
 
 // Print function with custom characters to represent the Square
 
-const OldSquare = require('./5-square');
+const OldSquare = require('./4-rectangle');
 
 module.exports = class Square extends OldSquare {
   constructor (size) {
