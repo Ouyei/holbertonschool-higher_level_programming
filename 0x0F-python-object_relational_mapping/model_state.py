@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-This script defines a State class and
-a Base class to work with MySQLAlchemy ORM.
-"""
+"""Definition of a State and an instance Base"""
 
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
@@ -11,11 +8,9 @@ Base = declarative_base()
 
 
 class State(Base):
-    """State class
-    Attributes:
-        __tablename__ (str): The table name of the class
-        id (int): The State id of the class
-        name (str): The State name of the class
+    """Inherits from Base
+    Args:
+        Base (class): inherits from Base
     """
     __tablename__ = 'states'
 
